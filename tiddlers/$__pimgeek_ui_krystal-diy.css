@@ -1,0 +1,48 @@
+.tc-sidebar-search input[type="search"] {
+min-width: 17em;
+}
+.krystal-header--small .tc-sidebar-search {
+width: 18em;
+margin-right: 1em;
+}
+.krystal-header--small > p {
+display: inline-block;
+margin-left: 0.6em;
+line-height: 1.8em;
+}
+.krystal-header--small > p > div .tc-tiddlylink {
+font-weight: 500;
+}
+.krystal-unread > sup {
+color: red;
+padding-left: 0.2em;
+}
+.krystal-header--big .krystal-unread > sup {
+margin-left: -0.3em;
+}
+.krystal-references {
+margin-top: 2rem;
+}
+.krystal-references__title {
+padding: 0 0.2em;
+margin: 0.1em 0.2em;
+border-left: 3px solid lightblue;
+}
+.krystal-references__title p {
+margin: 0.1em;
+}
+.krystal-tiddler__title > a {
+margin-left: -1em;
+font-size: 1em;
+}
+.krystal-references__reference {
+margin: 0.2em;
+width: 48%;
+}
+.krystal-references__reference > a {
+background: rgb(255,250,206);
+background: -moz-linear-gradient(156deg, rgba(255,250,206,1) 0%, rgba(255,252,221,1) 4%, rgba(255,254,235,1) 8%, rgba(255,255,245,1) 16%, rgba(255,255,251,1) 32%, rgba(255,255,255,1) 100%);
+background: -webkit-linear-gradient(156deg, rgba(255,250,206,1) 0%, rgba(255,252,221,1) 4%, rgba(255,254,235,1) 8%, rgba(255,255,245,1) 16%, rgba(255,255,251,1) 32%, rgba(255,255,255,1) 100%);
+background: linear-gradient(156deg, rgba(255,250,206,1) 0%, rgba(255,252,221,1) 4%, rgba(255,254,235,1) 8%, rgba(255,255,245,1) 16%, rgba(255,255,251,1) 32%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffface",endColorstr="#ffffff",GradientType=1);
+}
